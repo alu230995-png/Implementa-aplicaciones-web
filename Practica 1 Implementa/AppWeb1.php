@@ -6,7 +6,7 @@
 // clase es como la manera de crear un objeto que puedes invocar similar a una funcion solo que esta ejecuta codigo como una metatabla.
 class texto
 {
-    public $texto1 = "Bienvenidos a programacion de app web";
+    public $texto1 = "Bienvenidos a programacion de app web <br>";
     public function imprimirtexto () {
         echo $this->texto1;
         print $this->texto1;
